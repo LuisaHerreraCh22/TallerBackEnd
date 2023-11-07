@@ -1,0 +1,89 @@
+/*recursos import*/
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Paprika&family=Varela+Round&display=swap');
+
+
+/*font-family: 'Roboto Serif', serif;*/
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Comic Neue', serif;
+}
+body{
+    background-image: url('../img/fondos/fondoHuellas.jpg');
+    background-size: cover;
+    background-position-x: center;
+}
+
+.bienvenida{
+    text-align: center;
+    font-size: 20px;
+    color: #4C6770;
+    margin-bottom: 0px;
+}
+#general_section{
+    display: flex;
+    width: 90%;
+    margin: 4vh 5%;
+    background-color: #fff;
+    height: 90vh;
+    border-radius: 20px;
+    box-shadow: 0px 0px 14px -1px rgba(76, 76, 76, 0.75);
+}
+/*estilos del menu lateral izquierdo*/
+#general_section .left_menu{
+    width: 120px;
+    height: 100%;
+    background-color: #fff;
+    border-right: 1.5px dotted #e1e1e1;
+    border-radius: 20px 0px 0px 20px;
+}
+#general_section .left_menu img{
+    width: 100%;
+    height: auto;
+    
+}
+#general_section nav{
+    margin-top: 120px;
+    text-align: center;
+}
+#general_section li{
+    margin: 15px auto;
+    list-style: none;
+}
+#general_section .icon{
+    width: 50px;
+    height: 50px;
+}
+#general_section .exit{
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+}
+
+/*estilos del menu central*/
+
+#general_section .central{
+    width:100%;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#general_section .central h1{
+    text-align: center;
+    color: #4C6770;
+    font-weight: bold;
+    padding-top: 3px;
+    margin-top:0.5rem;
+}
+
+#general_section .central h2{
+    text-align: left;
+    color: #4C6770;
+    padding-top: 3px;
+    margin-top:0.5rem;
+}
+
+.form-group .form-control{
+    height: auto;
+}
