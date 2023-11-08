@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Paprika&family=Varela+Round&display=swap');
+
+*{
+  font-family:  'Comic Neue', sans-serif;
+}
+
+body {
+  text-align: center;
+  color: #000000b5;
+}
+
+h1 {
+  font-size: 58px;
+  color: #ee39d6e2;
+  font-family:  'Comic Neue', sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 32px;
+  color: #d654fde2;
+}
+
+section {
+  margin: 50px 0 120px;
+}
+
+form {
+  margin: 40px auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 40%;
+  box-shadow: 0 0 5px 0px #dc22e2cc;
+  color: #000000ae;
+  font-family: system-ui, -apple-system;
+}
+
+label {
+  display: block;
+  transition: all ease-in;
+}
+
+input {
+  width: 250px;
+  height: 35px;
+  border: none;
+  border-bottom: 2px solid #db54fde2;
+  outline: none;
+  text-align: center;
+}
+
+select {
+  height: 35px;
+  width: 250px;
+  background-color: #bb2acead;
+  border: none;
+  text-align: center;
+  outline: none;
+}
+
+a, button {
+  margin: 20px 0 40px;
+  padding: 12px 60px;
+  color: #ffffff;
+  background-color: #b154fde2;
+  border: none;
+  border-radius: 5px;
+  font-family: system-ui, -apple-system;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  width: auto;
+  height: auto;
+}
+
+a:hover, button:hover{
+  background-color: #b037e8e2;
+}
+
+table {
+  margin: 40px;
+  border-collapse: collapse;
+}
+
+tr {
+  height: 40px;
+}
+
+
+
+td, th, thead {
+  border: 1px solid #d53cf3c4;
+  color: #000000ae;
+  padding: 20px;
+}
+
+td {
+  padding: 15px 30px;
+}

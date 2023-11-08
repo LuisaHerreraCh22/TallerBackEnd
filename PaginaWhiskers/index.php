@@ -3,7 +3,7 @@
 <?php
 if (isset($_GET['status'])) {
     if ($_GET['status'] == 1) {
-        echo '<script src="./js/mensaje.js"></script>';
+        echo '<script> alert("Usuario Creado exitosamente") </script>';
     }
     if ($_GET['status'] == 2) {
         echo '<script>alert("El usuario ya existe");</script>';
